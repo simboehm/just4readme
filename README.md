@@ -20,8 +20,8 @@ The CDK stack takes care of all connections, IAM roles and KMS encryption settin
 The Kinesis Data Stream captures data from DynamoDB. The presented CDK stack is missing a direct dependency between DynamoDB and Kinesis Data Stream (not yet included in CDK in general). As a workaround, please create this dependency using the following CLI command: 
 ```javascript
   enable-kinesis-streaming-destination
---table-name <value>                    //The name of the DynamoDB table
---stream-arn <value>                    //The ARN for a Kinesis data stream
+--table-name <value>                    //Name of DynamoDB table
+--stream-arn <value>                    //ARN for Kinesis Data Stream
 [--cli-input-json | --cli-input-yaml]   //Reads arguments from the JSON string provided
 [--generate-cli-skeleton <value>]       //Prints a JSON skeleton to standard output without sending an API request
 ```
