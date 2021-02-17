@@ -2,7 +2,7 @@
 ## CDK Stack for QuickSight Dashboard
 
 ### Description:
-This CDK stack creates a **QuickSight** dashboard, enabling front end users to check their past activities. \\\\\\
+This CDK stack creates a **QuickSight** dashboard, enabling front end users to check their past activities. \\ \\
 
 ### Services:
 * **Kinesis Data Stream & Firehose
