@@ -2,17 +2,17 @@
 ## CDK Stack for QuickSight Dashboard
 
 ### Description:
-This CDK stack creates a QuickSight dashboard, enabling front end users to check their past activities.
+This CDK stack creates a **QuickSight** dashboard, enabling front end users to check their past activities. \\\\\\
 
 ### Services:
-* Kinesis Data Stream & Firehose
-* Lambda Function
-* S3 Bucket
-* Glue Crawler & Table
-* IAM Roles
-* KMS
+* **Kinesis Data Stream & Firehose
+* **Lambda Function
+* **S3 Bucket
+* **Glue Crawler & Table
+* **IAM Roles
+* **KMS
 
-The QuickSight Dashboard CDK stack creates a Kinesis Data Stream captured by Kinesis Firehose. A Lambda function transforms the processed stream between Firehose and its connected S3 bucket (KMS enabled). A Glue Crawler crawls the processed data from S3 into its Glue table. Quicksight then, uses Athena as a query service to query the Glue table and creates the dashboard (not included in this CDK stack).
+The **QuickSight** Dashboard CDK stack creates a **Kinesis Data Stream** captured by **Kinesis Firehose**. A **Lambda** function transforms the processed stream between Firehose and its connected **S3** bucket (KMS enabled). A **Glue Crawler** crawls the processed data from **S3** into its **Glue table**. Quicksight then, uses Athena as a query service to query the Glue table and creates the dashboard (not included in this CDK stack).
 
 The CDK stack takes care of all connections, IAM roles and KMS encryption settings. 
 
