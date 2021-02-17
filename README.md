@@ -1,5 +1,5 @@
 <!-- ABOUT THE PROJECT -->
-## CDK Stack for QuickSight Dashboard
+## <u> CDK Stack for QuickSight Dashboard </u>
 
 ### Description:
 This CDK stack creates a **QuickSight** dashboard, enabling front end users to check their past activities. &nbsp;
